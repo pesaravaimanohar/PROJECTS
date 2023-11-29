@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manohar's portfolio website</title>
+  </head>
+  <link rel="stylesheet" href="/portfolio website/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <body>
+    <header>
+      <nav>
+        <div class="left">Manohar's PortFolio Website</div>
+        <div class="right">
+        <ul>
+            <div id="homebar"><li><a href="">Home</a></li></div>
+            <div id="homebar"><li><a href="/portfolio website/aboutMe.html">About Me</a></li></div>
+            <div id="homebar"><li><a href="">Services</a></li></div>
+            <div id="homebar"><li><a href="">Projects</a></li></div>
+            <div id="homebar"><li><a href="">Contact Me</a></li></div>
+        </ul></div>
+      </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi, Iam <span class="name"> Manohar</span>
+            <div>And Iam a Passionate</div>
+                <span id="element"></span>
+                
+                <div><button class="Download"><i class="fa fa-download"></i> <a href="./pesaravaimanohar.pdf">Download CV</a></button></div>
+              </div>
+            <div class="rightsection"><img src="/portfolio website/bg.png" alt=""></div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Video Editor','App Developer','Java Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+  </body>
+</html>
